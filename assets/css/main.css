@@ -4232,3 +4232,9 @@ input, select, textarea {
 .button-doctolib:hover {
   background-color: #004999;
 }
+.logo img {
+  border-radius: 50%;
+  width: 120px; /* Ajuste selon la taille désirée */
+  height: 120px;
+  object-fit: cover;
+}
