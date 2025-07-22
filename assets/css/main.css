@@ -4186,3 +4186,33 @@ input, select, textarea {
   margin-top: 0;
   color: #ffffffcc;
 }
+/* Bannière centrée avec logo et texte côte à côte */
+.banner-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  text-align: left;
+}
+
+.banner-flex .text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nom-praticien {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.8em;
+  font-weight: normal;
+  margin: 0;
+  color: #ffffff;
+}
+
+.sous-titre {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  margin-top: 0.2em;
+  color: #ffffffcc;
+}
