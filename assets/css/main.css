@@ -4241,7 +4241,7 @@ input, select, textarea {
 img.round {
   border-radius: 50%;
   object-fit: cover;
-  width: 200px; 
-  height: 200px;
+  width: 220px; 
+  height: 220px;
 }
 
