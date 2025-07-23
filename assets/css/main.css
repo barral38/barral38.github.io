@@ -4244,4 +4244,17 @@ img.round {
   width: 220px; 
   height: 220px;
 }
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/fond.jpg") no-repeat center center;
+  background-size: cover;
+  opacity: 0.08; /* Réglage du filigrane */
+  z-index: -1;
+  pointer-events: none;
+}
 
