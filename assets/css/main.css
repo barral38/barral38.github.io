@@ -4238,3 +4238,10 @@ input, select, textarea {
   height: 120px;
   object-fit: cover;
 }
+img.round {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 200px; 
+  height: 200px;
+}
+
