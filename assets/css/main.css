@@ -4244,7 +4244,7 @@ img.round {
   width: 220px; 
   height: 220px;
 }
-body::before {
+body.home::before { ... }
   content: "";
   position: fixed;
   top: 0;
