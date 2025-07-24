@@ -3379,7 +3379,7 @@ input, select, textarea {
 
 	#banner {
 	padding: 10em 0 4.75em 0 ;
-	background-image: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url("../../images/fond.jpg");
+	background-image: linear-gradient(to top, rgba(46, 49, 65, 0.3), rgba(46, 49, 65, 0.7)), url("../../images/fond.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
