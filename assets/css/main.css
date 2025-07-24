@@ -4251,7 +4251,7 @@ body.home::before { ... }
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url("/images/fond.jpg");
+  background-image: url("images/fond.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
