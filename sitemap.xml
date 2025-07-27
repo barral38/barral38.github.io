@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Page d'accueil -->
+  <url>
+    <loc>https://osteopathe-la-buisse.fr/</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Pages principales -->
+  <url>
+    <loc>https://osteopathe-la-buisse.fr/blog.html</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://osteopathe-la-buisse.fr/tarifs.html</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://osteopathe-la-buisse.fr/contact.html</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+  <!-- Pages de blog -->
+  <url>
+    <loc>https://osteopathe-la-buisse.fr/blog/osteopathie-femme-enceinte.html</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://osteopathe-la-buisse.fr/blog/osteopathe-nourrisson-la-buisse.html</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://osteopathe-la-buisse.fr/blog/osteopathie-lombaires-sportifs.html</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+  <!-- Ajoute ici toute autre page si besoin -->
+</urlset>
