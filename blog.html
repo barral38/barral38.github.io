@@ -19,14 +19,16 @@
     "name": "Damien Barral-Cadière"
   }
 }
-      <style>
+   <style>
   .blog-card {
     position: relative;
     overflow: hidden;
+    height: 300px;
+    border-radius: 15px;
     margin: 2em auto;
     max-width: 800px;
-    border-radius: 15px;
-    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+    background: #000;
+    color: white;
   }
 
   .blog-card .bg-image {
@@ -34,32 +36,43 @@
     top: 0; left: 0; right: 0; bottom: 0;
     background-size: cover;
     background-position: center;
-    filter: blur(5px) brightness(0.6);
+    filter: blur(4px) brightness(0.5);
+    opacity: 0.6;
     z-index: 1;
   }
 
   .blog-card .content {
     position: relative;
     z-index: 2;
-    padding: 3em 2em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    color: white;
+    padding: 1em 2em;
   }
 
   .blog-card h2 a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.6em;
+  }
+
+  .blog-card p {
+    font-size: 1em;
+    margin: 0.8em 0;
   }
 
   .blog-card .button {
+    display: inline-block;
     margin-top: 1em;
     background: #fff;
-    color: #333;
-    padding: 0.7em 1.5em;
+    color: #000;
+    padding: 0.6em 1.4em;
     border-radius: 5px;
-    text-decoration: none;
-    display: inline-block;
     font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease;
   }
 
   .blog-card .button:hover {
