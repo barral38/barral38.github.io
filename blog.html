@@ -19,6 +19,54 @@
     "name": "Damien Barral-Cadière"
   }
 }
+      <style>
+  .blog-card {
+    position: relative;
+    overflow: hidden;
+    margin: 2em auto;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+  }
+
+  .blog-card .bg-image {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px) brightness(0.6);
+    z-index: 1;
+  }
+
+  .blog-card .content {
+    position: relative;
+    z-index: 2;
+    padding: 3em 2em;
+    text-align: center;
+    color: white;
+  }
+
+  .blog-card h2 a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .blog-card .button {
+    margin-top: 1em;
+    background: #fff;
+    color: #333;
+    padding: 0.7em 1.5em;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  .blog-card .button:hover {
+    background: #f08080;
+    color: white;
+  }
+</style>
 </script>
 
   </head>
@@ -51,42 +99,36 @@
           <p>Découvrez les conseils de votre ostéopathe à La Buisse</p>
         </header>
 
-                  <article class="spotlight">
-  <div class="image">
-    <img src="/images/R.jpg" alt="Ostéopathie bébé nourrisson la Buisse" />
-  </div>
+                <div class="blog-card">
+  <div class="bg-image" style="background-image: url('/images/R.jpg');"></div>
   <div class="content">
     <h2><a href="/blog/osteopathe-nourrisson-la-buisse.html">Pourquoi consulter un ostéopathe pour son bébé ?</a></h2>
-    <p>Votre ostéopathe à La Buisse vous accompagne après la naissance de votre enfant : régurgitations, coliques, plagiocéphalie… Découvrez comment l’ostéopathie peut accompagner votre nourrisson dès les premiers mois.</p>
+    <p>Régurgitations, coliques, plagiocéphalie… découvrez comment l’ostéopathie peut accompagner votre nourrisson dès les premiers mois de vie.</p>
     <a href="/blog/osteopathe-nourrisson-la-buisse.html" class="button">Lire l'article</a>
   </div>
-</article>
+</div>
           <br>
           
-          <article class="spotlight">
-  <div class="image">
-    <img src="/images/sport.jpg" alt="Ostéopathie pour sportifs à La Buisse - douleurs lombaires" />
-  </div>
+         <div class="blog-card">
+  <div class="bg-image" style="background-image: url('/images/sport.jpg');"></div>
   <div class="content">
     <h2><a href="/blog/osteopathie-lombaires-sportifs.html">Douleurs lombaires et sport : quand consulter ?</a></h2>
-    <p>Douleurs dans le bas du dos pendant ou après l’effort ? Votre ostéopathe à la Buisse peut prévenir, soulager et rééquilibrer votre corps pour une meilleure pratique sportive.</p>
+    <p>Douleurs dans le bas du dos pendant ou après l’effort ? L’ostéopathie aide à prévenir, soulager et rééquilibrer votre corps pour une meilleure pratique sportive.</p>
     <a href="/blog/osteopathie-lombaires-sportifs.html" class="button">Lire l'article</a>
   </div>
-</article>
+</div>
+
           <br>
           
           
-          <article class="spotlight">
-  <div class="image">
-    <img src="/images/femme.jpg" alt="Ostéopathie femme enceinte La Buisse" />
-  </div>
+        <div class="blog-card">
+  <div class="bg-image" style="background-image: url('/images/femme.jpg');"></div>
   <div class="content">
     <h2><a href="/blog/osteopathie-femme-enceinte.html">Ostéopathie et grossesse : comment soulager vos douleurs ?</a></h2>
-    <p>Votre ostéopathe à La Buisse vous accompagne pendant et après la grossesse pour soulager lombalgies, troubles digestifs ou douleurs ligamentaires.</p>
+    <p>Lombalgies, douleurs ligamentaires, troubles digestifs… votre ostéopathe à La Buisse vous accompagne avec des techniques douces pendant et après la grossesse.</p>
     <a href="/blog/osteopathie-femme-enceinte.html" class="button">Lire l'article</a>
   </div>
-</article>
-
+</div>
 
 
           <!-- Vous pouvez ajouter ici d’autres articles -->
